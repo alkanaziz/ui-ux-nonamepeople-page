@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 62.5%;
+    font-family: 'Open Sans', sans-serif;}
+
+header {
+    height: 10vh;
+    align-items: center;
+}
+
+#headerLogo {
+    color: #68e1fd;
+    font-weight: 800;
+    font-size: clamp;
+    position: absolute;
+    left: 10rem;
+    top: 3vh;
+}
+.menuImage {
+    position: absolute;
+    right: 10rem;
+    top: 3vh;
+}
+
+.hauptSeite {
+    height: 90vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.hauptSeiteText {
+    max-width: 50rem;
+}
+
+h1 {
+    font-size: 4rem;
+    margin-bottom: 2rem;
+    color: #000F37;
+}
+
+h2 {
+    font-size: 3rem;
+    color: #000F37;
+}
+
+p {
+    font-size: 2rem;
+    color: #4F4F4F;
+}
+
+button {
+    margin-top: 2rem;
+    width: 13rem;
+    height: 3.6rem;
+    background-color: #68e1fd;
+    border-style: none;
+    font-weight: 600;
+    color: #000F37;
+}
+
+button:hover {
+    background-color: #53A4E6;
+    color: white;
+    transition: all 0.2s ease-in-out;
+}
+
+button:active {
+    scale: 0.9;
+}
+
+.servicesSeite h2,
+.servicesSeite p {
+    text-align: center;
+    padding-top: 3rem;
+}
+
+.servicesSeite {
+    background: #68e1fd;
+    height: 90vh;
+}
+
+.servicesDiv {
+    background: #ffffff;
+    width: 80rem;
+    height: 50rem;
+    margin: 5rem auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.servicesList {
+    list-style: none;
+    font-size: 2rem;
+}
+
+.list_Item {
+    margin: 1.5rem;
+    font-weight: 600;
+}
+
+.list_Item::before {
+    background-image: url(../assets/png/check-mark.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 1.5rem;
+    height: 1.5rem;
+    content: "";
+    display: inline-block;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+footer {
+    height: 10vh;
+    margin: 0 5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer div span {
+    font-size: 1.6rem;
+}
+
+.fa-brands {
+    margin: 0 1rem;
+    font-size: 2rem;
+}
+
+
+.fa-youtube:hover {
+    scale: 1.2;
+    transition: all 0.2s ease-in-out;
+    color: red;
+}
+
+.fa-instagram:hover {
+    scale: 1.2;
+    transition: all 0.2s ease-in-out;
+    color: #F77737;
+}
+
+.fa-twitter:hover {
+    scale: 1.2;
+    transition: all 0.2s ease-in-out;
+    color: #1DA1F2;
+}
+
+.fa-brands:active {
+    scale: 1;
+}
